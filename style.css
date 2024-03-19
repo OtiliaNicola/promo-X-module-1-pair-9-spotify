@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header img{
+    height: 24px;
+    padding: 3px;
+}
+
+
+.seccion-plan{
+    background-color: aqua;
+    color: aliceblue;
+}
+
+footer{
+    background-color: black;
+    color: gray;
+}
