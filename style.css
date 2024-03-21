@@ -1,75 +1,77 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
+
 }
 
-:root{
-    --brand-color: rgb(82, 156, 241) ;
-    font-family: roboto;
-    font-size: 10px;
+:root {
+    --brand-color: rgb(82, 156, 241);
+    --font-family: Roboto;
+    --font-size: 10px;
 }
 
-h1{
+h1 {
     font-size: 5rem;
 }
-.cabecera{
+
+.cabecera {
     display: flex;
     flex-direction: row;
     position: sticky;
     top: 0;
     left: 0;
     background-color: black;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-header img{
+header img {
     height: 24px;
     padding: 3px;
 }
 
 
-.seccion-plan{
+.seccion-plan {
     display: flex;
     align-items: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: var(--brand-color);
-    
     color: aliceblue;
     height: 50vh;
     padding: 20px;
-   
+
 }
+
 @media screen and (min-width: 480px) {
-    .seccion-plan{    
+    .seccion-plan {
         background-image: url("/imagenes/chica bailando.png");
+        background-repeat: no-repeat;
     }
 
-    
+
 }
 
-footer{
+footer {
     background-color: black;
     color: gray;
 }
 
-.paquete{
+.paquete {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
-.icono{
+.icono {
     display: flex;
     justify-content: flex-start;
     width: 100%;
     max-width: 50px;
 }
 
-.pack{
+.pack {
     display: flex;
 }
