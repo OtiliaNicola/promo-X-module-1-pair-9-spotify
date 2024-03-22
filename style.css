@@ -12,7 +12,7 @@
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 2.5rem;
 }
 
 .cabecera {
@@ -48,8 +48,12 @@ header img {
 
 @media screen and (min-width: 480px) {
     .seccion-plan {
-        background-image: url("/imagenes/chica bailando.png");
+        background-image: url("./imagenes/chica bailando.png");
         background-repeat: no-repeat;
+        background-position-x: right;
+        background-size: contain;
+        width: 100%;
+
     }
 
 
