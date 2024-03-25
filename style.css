@@ -28,11 +28,43 @@ h1 {
     padding-right: 10px;
 }
 
+.navegador{
+    
+}
+
+@media screen and (min-width: 480px)
+{
+    .navegador {
+        display: flex;
+    }
+    
+}
+
+.lista{
+    display: none;
+    gap: 10px;
+}
+
+@media screen and (min-width: 480px) {
+    .lista{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        color: white;
+    }
+}
+
 header img {
     height: 24px;
     padding: 3px;
 }
 
+@media screen and (min-width: 480px)
+{
+    .logo-menu{
+        display: none;
+    }
+}
 
 .seccion-plan {
     display: flex;
@@ -78,4 +110,8 @@ footer {
 
 .pack {
     display: flex;
+}
+
+.titulo-pack{
+    width: 100vw;
 }
