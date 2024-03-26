@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Roboto;
 
 }
 
@@ -97,8 +98,13 @@ footer {
 }
 
 .paquete {
-    display: flex;
-    flex-direction: column;
+    padding: 30px;
+    display: inline-block
+   
+}
+
+.titulo-premium{
+ text-align: center;
 }
 
 .icono {
@@ -108,10 +114,8 @@ footer {
     max-width: 50px;
 }
 
-.pack {
+.div_white{
     display: flex;
-}
-
-.titulo-pack{
-    width: 100vw;
+    flex-direction: row;
+    gap: 10px;
 }
